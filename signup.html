@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <title>Sign Up!</title>
+        <style>
+            .one{
+                display: inline-block;
+            }
+            body{
+                background-color: rgb(247,247,247);
+            }
+            h1{
+                color: black;
+            }
+            p{
+                color: grey;
+            }
+            img{
+                float: left;
+                height: 600px;
+                width: 400px;
+            }
+            form{
+                color: black;
+            }
+            button{
+                height: 40px;
+                width: 80px;
+                font-size: 18px;
+                border-radius: 40px;
+            }
+            button:hover{
+               background-color: grey;
+            }
+        </style>
+    </head>
+    <body><div class="one">
+        <img src="PICS/Student.png">
+        <div class="one" id="two">
+            <center><h1>SIGN UP</h1></center>
+        <form method="post" action="Validate2.php">
+        <table cellspacing="25">
+        <tr><td>Name</td><td><input id="name" type="text" name="name" placeholder="Please enter your name" required></td></tr>
+        <tr><td>Mobile</td><td><input id="mobile" type="text" name="phno" placeholder="Enter your number" required></td></tr>
+        <tr><td>E-mail</td><td><input id="email" type="text" name="email" placeholder="Enter a valid e-mail" required></td></tr>
+        <tr><td>Password</td><td><input id="pass" type="password" name="pass" placeholder="Enter a password" required></td></tr>
+        <tr><td>Re-enter Password</td><td><input id="repass" type="password" name="repass" placeholder="Re-enter your password" required></td></tr>
+        <tr><td>Gender</td><td><input class="gender" type="radio" name="gender" value="Male" required>Male&nbsp;&nbsp;<input class="gender" type="radio" name="gender" value="Female" required>Female&nbsp;&nbsp;<input class="gender" type="radio" name="gender" value="Other" required>Prefer not to say</td></tr>
+        <tr><td>Country</td><td>
+            <select name="country" required>
+            <option></option>
+            <option name="India">India</option>
+            <option name="Canada">Canada</option>
+            <option name="Cuba">Cuba</option>
+            <option name="America">America</option>
+            <option name="France">France</option>
+            <option name="Italy">Italy</option>
+            <option name="Indonesia">Indonesia</option>
+            <option name="Iceland">Iceland</option>
+            <option name="Argentina">Argentina</option>
+            <option name="Brazil">Brazil</option>
+            <option name="Ethiopia">Ethiopia</option>
+            <option name="Finland">Finland</option>
+            <option name="Germany">Germany</option>
+            <option name="Spain">Spain</option>
+            <option name="Netherlands">Netherlands</option>
+            <option name="Croatia">Croatia</option>
+            <option name="Japan">Japan</option>
+        </select></td></tr>
+        <tr><td>Date Of Birth</td><td>
+        Day:<select name="day" required>
+            <option></option>
+            <option name="1">1</option>
+            <option name="2">2</option>
+            <option name="3">3</option>
+            <option name="4">4</option>
+            <option name="5">5</option>
+            <option name="6">6</option>
+            <option name="7">7</option>
+            <option name="8">8</option>
+            <option name="9">9</option>
+            <option name="10">10</option>
+            <option name="11">11</option>
+            <option name="12">12</option>
+            <option name="13">13</option>
+            <option name="14">14</option>
+            <option name="15">15</option>
+            <option name="16">16</option>
+            <option name="17">17</option>
+            <option name="18">18</option>
+            <option name="19">19</option>
+            <option name="20">20</option>
+            <option name="21">21</option>
+            <option name="22">22</option>
+            <option name="23">23</option>
+            <option name="24">24</option>
+            <option name="25">25</option>
+            <option name="26">26</option>
+            <option name="27">27</option>
+            <option name="28">28</option>
+            <option name="29">29</option>
+            <option name="30">30</option>
+            <option name="31">31</option>
+            </select>
+            Month:<select name="month" required>
+            <option></option>
+            <option name="1">1</option>
+            <option name="2">2</option>
+            <option name="3">3</option>
+            <option name="4">4</option>
+            <option name="5">5</option>
+            <option name="6">6</option>
+            <option name="7">7</option>
+            <option name="8">8</option>
+            <option name="9">9</option>
+            <option name="10">10</option>
+            <option name="11">11</option>
+            <option name="12">12</option>
+        </select>
+            Year:<select name="year" required>
+            <option></option>
+            <option name="2005">2005</option>
+            <option name="2004">2004</option>
+            <option name="2003">2003</option>
+            <option name="2002">2002</option>
+            <option name="2001">2001</option>
+            <option name="2000">2000</option>
+            <option name="1999">1999</option>
+            <option name="1998">1998</option>
+            <option name="1997">1997</option>
+            <option name="1996">1996</option>
+            <option name="1995">1995</option>
+            <option name="1994">1994</option>
+            <option name="1993">1993</option>
+            <option name="1992">1992</option>
+            <option name="1991">1991</option>
+            <option name="1990">1990</option>
+            <option name="1989">1989</option>
+            <option name="1988">1988</option>
+            <option name="1987">1987</option>
+            <option name="1986">1986</option>
+            <option name="1985">1985</option>
+            <option name="1984">1984</option>
+            <option name="1983">1983</option>
+            <option name="1982">1982</option>
+            <option name="1981">1981</option>
+            <option name="1980">1980</option>
+        </select>
+            </td></tr>
+            </table>
+            <br><br>
+            <center>
+            <button>
+                Submit
+            </button>
+            </center>
+        </form >
+        </div>
+        </div>
+    </body>
+</html>

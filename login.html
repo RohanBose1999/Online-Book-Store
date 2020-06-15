@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Login!</title>
+        <style>
+            body{
+                background-color: rgb(254,254,254);
+            }
+            .one{
+                display: inline-block;
+            }
+            img{
+                float: left;
+                height: 600px;
+                width: 530px;
+            }
+            #two{
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="one">
+        <img src="PICS/loginpic.png">
+        <div class="one" id="two">
+            <h1><center>Login!</center></h1>
+            <form method="post" action="Validate.php">
+                <center>
+                    <table cellspacing="20"><tr><td>
+                        UserName</td><td><input id="u" type="text" name="username" placeholder="UserName" required></td></tr>
+                        <tr><td>Password</td><td><input type="password" id="p" name="pass" placeholder="Password" required></td></tr>
+                    </table>
+                    <input type="submit" value=login>
+                    <p><a href="#">forgot password?</a></p>
+                </center>
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
